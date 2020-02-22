@@ -1,12 +1,4 @@
-import React from 'react';
-import { render } from '@testing-library/react';
-import App from './App';
-// import {twoFer, plusOne} from './Apptest';
-import {decimalToBinary, binaryToDecimal} from './Converter';
-
-// test('renders learn react link', () => {
-  
-// });
+import {decimalToBinary, binaryToDecimal} from './converter/Converter';
 
 describe('convert from decimal to binary', () => {
 
